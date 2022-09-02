@@ -8,6 +8,10 @@ a:hover
 	color: rgba(0,0,0,0.9);
 }
 
+a.article-link{
+	text-decoration: underline;
+}
+
 .container
 {
 	margin-top: 3em;
@@ -82,6 +86,18 @@ a:hover
 .flexMe li img{
     width: 100%; 
     height: auto;
+}
+
+.headline
+{
+	font-size: 20px;
+}
+
+.dek
+{
+	font-size: 15px;
+	font-style: italic;
+	font-weight: normal;
 }
 
 @media (min-width: 768px)
